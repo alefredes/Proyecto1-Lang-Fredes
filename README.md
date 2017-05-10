@@ -1,5 +1,5 @@
 ===============================================================================*/
-Ingenieria de Aplicaciones Web -Proyecto N°1
+Ingenieria de Aplicaciones Web -Proyecto N°1-
 Dpto. Cs. e Ing. de Computación- Universidad Nacional del Sur
 ===============================================================================*/
 
