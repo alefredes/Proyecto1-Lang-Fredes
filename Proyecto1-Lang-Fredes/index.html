@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<title>MyFood</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- CSS propio -->
+        <link id="estilos" rel="stylesheet" type="text/css" href=''>
+        <!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="logica.js" async></script>
+       
+  </head>
+  <body class="cuerpo">
+      <div class="container-fluid">
+   <div class="row estilo">
+  <div class="col-md-11"></div>
+  <div class="col-md-1">
+     <select class="selectpicker">
+     <option class="picker" id="estilo1" value="estilo1" >Estilo 1</option>
+     <option class="picker" id="estilo2" value="estilo2" >Estilo 2</option>
+     <option class="picker" id="estilo3" value="estilo3" >Estilo 3</option>
+    </select>
+  </div>
+   </div>
+    </div> 
+    <div class="jumbotron text-center fondo">
+         <h1 class="titulo">MyFood</h1>
+    <p class="subtitulo1">¡Personalizá tu plato favorito y enterate su información nutricional!</p>
+     </div>
+  
+<div class="container-fluid principal">
+<div class="row">
+     
+    <div class="col-md-8">
+      <img id="PlatoPrincipal" src="Imagenes/plato.png" alt="Imagen plato" class="img-responsive center-block imgPpal">
+      <img class="parte1-food" src="Imagenes/transparente.png" alt=""/>
+      <img class="parte2-food" src="Imagenes/transparente.png" alt=""/>
+      <img class="parte3-food" src="Imagenes/transparente.png" alt=""/>
+    </div>
+    
+  <div class="col-md-4">
+   <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Vegetales</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body"> 
+      <div>           
+            <ul class="contenedor"> 
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Tomate">Tomate</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Lechuga">Lechuga</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Zanahoria">Zanahoria</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Pepino">Pepino</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Papa">Papa</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Zapallo">Zapallo</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Choclo">Choclo</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Batata">Batata</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Acelga">Acelga</li>
+                <li class="panel-button" data-panelcat="Vegetales" data-panelid="Espinaca">Espinaca</li>
+            </ul>        
+        </div>   
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Carnes</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div>           
+            <ul class="contenedor"> 
+                <li class="panel-button" data-panelcat="Carnes" data-panelid="Pollo">Pollo</li>
+                <li class="panel-button" data-panelcat="Carnes" data-panelid="Merluza">Merluza</li>
+                <li class="panel-button" data-panelcat="Carnes" data-panelid="Bife de Vaca">Bife de Vaca</li>
+                <li class="panel-button" data-panelcat="Carnes" data-panelid="Bife de Cerdo">Bife de Cerdo</li>
+                <li class="panel-button" data-panelcat="Carnes" data-panelid="Chuletas de Cordero">Chuletas de Cordero</li>
+            </ul>     
+        </div>
+       </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Minutas</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+      <div>           
+            <ul class="contenedor"> 
+                <li class="panel-button" data-panelcat="Minutas" data-panelid="Milanesa de Pollo">Milanesa de Pollo</li>
+                <li class="panel-button" data-panelcat="Minutas" data-panelid="Milanesa de Ternera">Milanesa de Ternera</li>
+                <li class="panel-button" data-panelcat="Minutas" data-panelid="Hamburguesa">Hamburguesa</li>
+                <li class="panel-button" data-panelcat="Minutas" data-panelid="Pizza">Pizza</li>
+                <li class="panel-button" data-panelcat="Minutas" data-panelid="Empanadas">Empanadas</li>
+            </ul>         
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Pastas</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+      <div>           
+            <ul class="contenedor"> 
+                <li class="panel-button" data-panelcat="Pastas" data-panelid="Spaghetti">Spaghetti</li>
+                <li class="panel-button" data-panelcat="Pastas" data-panelid="Ravioles">Ravioles</li>
+                <li class="panel-button" data-panelcat="Pastas" data-panelid="Ñoquis">Ñoquis</li>
+            </ul>         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+      </div>
+       <div class="container-fluid">   
+<div class="row regimen" align="center">
+    <div class="col-md-3">
+        <input type="checkbox" value="celiaco"> Celiaco<br>
+    </div>
+    <div class="col-md-3">
+        <input type="checkbox" value="hipertenso"> Hipertenso<br>
+    </div>
+    <div class="col-md-3">
+        <input type="checkbox" value="diabetico"> Diabetico<br>
+    </div>
+    <div class="col-md-3">
+        <input type="checkbox" value="vegetariano"> Vegetariano<br>
+    </div>
+</div>    
+<div class="row" align="center">
+     
+    <div class="col-md-3">
+<img src="Imagenes/plato1.png" alt="Imagen plato" class="sugerencias" onclick=exportToForm(1)>
+<p class="sugerencia" >Milanesa de Pollo con Fritas</p>
+<p class="subtitulo2">Deliciosa milanesa de pechuga de pollo con papas fritas baston.</p> 
+    </div>
+    <div class="col-md-3">
+<img src="Imagenes/plato2.png" alt="Imagen plato" class="sugerencias" onclick=exportToForm(2)>
+<p class="sugerencia">Lasagna</p>
+<p class="subtitulo2">Pasta en láminas intercaladas con carne y vegetales</p> 
+    </div>
+    <div class="col-md-3">
+<img src="Imagenes/plato3.png" alt="Imagen plato" class="sugerencias" onclick=exportToForm(3)>
+<p class="sugerencia">Sushi</p>
+<p class="subtitulo2">Arroz acompañado con sésamo, salmón y trucha.</p> 
+    </div>
+  <div class="col-md-3">    
+<img src="Imagenes/plato4.png" alt="Imagen plato" class="sugerencias" onclick=exportToForm(4)>
+<p class="sugerencia">Super pancho</p>
+<p class="subtitulo2">Pancho con aderezos y papas carioca</p>
+  </div>
+  </div>
+</div>
+<div class="container-fluid">  
+<div class="row tabla">
+    
+    <div class="col-md-12">         
+  <table class="table table-striped">
+    <thead>
+      <tr class="columna">
+        <th>Kcal</th>
+        <th>Carbohidratos</th>
+        <th>Protenias</th>
+        <th>Grasas totales</th>
+        <th>Sodio</th> 
+        <th>Azucar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>       
+    </div>
+</div>
+  </body>
+</html>

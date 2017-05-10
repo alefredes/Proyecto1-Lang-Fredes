@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/05/2017, 18:25:59
+    Author     : Alee
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/04/2017, 17:57:53
+    Author     : Alee
+*/
+
+.estilo{
+    background-color: #009900;
+}
+.jumbotron, text-center, fondo{
+   background-image:url('Imagenes/fondo2.jpg');
+ 
+}
+
+.jumbotron{
+   color: whitesmoke;
+   margin-bottom: 0px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+
+}
+
+.subtitulo1{
+   font-style: italic;
+   color: whitesmoke;
+
+}
+ 
+.subtitulo2{
+   font-style: italic;
+   color: black;
+   font-size: medium
+}
+
+.tabla{
+    margin-top: 10%;
+}
+
+.tabla td, th{
+  text-align: center;
+}
+
+.principal{
+    position: relative;
+}
+.imgPpal{
+    width: 100%;
+    height: 100%;
+}
+.parte1-food{
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+    width: 28%;
+    height: 28%;
+}
+.parte2-food{
+    position: absolute;
+    bottom: 50%;
+    right: 25%;
+    width: 28%;
+    height: 28%;
+}
+.parte3-food{
+    position: absolute;
+    bottom: 25%;
+    right: 35%;
+    width: 30%;
+    height: 30%;
+}
+
+.regimen{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: x-large;
+    background-color: green;
+    color: white;
+}
+
+.sugerencias{
+    width: 80%;
+    height: 80%;
+}
+
+.sugerencia{
+    font-size: x-large;
+    color: green;
+}
+
+#accordion{
+    width: 140%;
+    margin-top: 5px;
+
+	background: green;
+	margin: 100px auto 0 auto;
+	color: green;
+	/*Some cool shadow and glow effect*/
+	box-shadow: 
+		0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+		0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+
+#accordion h4 {
+	font-size: 20px;
+	line-height: 34px;
+	padding: 0 10px;
+	cursor: pointer;
+
+}
+
+.panel-button:hover{
+  background-color: black;
+  background-color: whitesmoke;
+  cursor: pointer;
+  color: black;
+}
+
+.panel-button{
+    padding-left: 25px;
+    height: 30px;
+    font-size: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: green;
+   color: white;
+   font-weight: bold;
+}
+.contenedor{
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel-title{
+   color: green;;
+   font-weight: bold;
+}
+
+.container-fluid{
+    background-color: #31FF08;
+}
+
+.columna{
+   color: black;
+   font-weight: bold; 
+   font-size: x-large;
+   font-family: serif
+}

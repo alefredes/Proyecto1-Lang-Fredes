@@ -1,0 +1,602 @@
+[
+    {
+      "Vegetales": [
+        {
+          "Nombre": "Tomate",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 20,
+              "carb": 4,
+              "proteinas": 1,
+              "grasastotales": 0,
+              "sodio": 18,
+              "azucar": 0
+            },
+          "Apto": 
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Lechuga",
+          "Porcion": 100,
+          "InfNutricional": 
+            {
+              "kcal": 20,
+              "carb": 1,
+              "proteinas": 1,
+              "grasastotales": 1,
+              "sodio": 3,
+              "azucar": 1
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Zanahoria",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 11,
+              "carb": 10,
+              "proteinas": 1,
+              "grasastotales": 0,
+              "sodio": 69,
+              "azucar": 5
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Pepino",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 12,
+              "carb": 2,
+              "proteinas": 1,
+              "grasastotales": 0,
+              "sodio": 13,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Papa",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 77,
+              "carb": 17,
+              "proteinas": 0,
+              "grasastotales": 0,
+              "sodio": 6,
+              "azucar": 1
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": false,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Zapallo",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 24,
+              "carb": 6,
+              "proteinas": 1,
+              "grasastotales": 0,
+              "sodio": 0,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Choclo",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 95,
+              "carb": 19,
+              "proteinas": 3,
+              "grasastotales": 1,
+              "sodio": 15,
+              "azucar": 3
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": false,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Batata",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 88,
+              "carb": 19,
+              "proteinas": 2,
+              "grasastotales": 0,
+              "sodio": 3,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": false,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Acelga",
+          "Porcion": 200,
+          "InfNutricional":
+            {
+              "kcal": 56,
+              "carb": 5,
+              "proteinas": 2,
+              "grasastotales": 0,
+              "sodio": 211,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Espinaca",
+          "Porcion": 150,
+          "InfNutricional":
+            {
+              "kcal": 23,
+              "carb": 4,
+              "proteinas": 3,
+              "grasastotales": 0,
+              "sodio": 79,
+              "azucar": 0
+            },
+          "Apto": 
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        }
+      ]
+    },
+    {
+      "Carnes": [
+        {
+          "Nombre": "Pollo",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 239,
+              "carb": 0,
+              "proteinas": 31,
+              "grasastotales": 6,
+              "sodio": 135,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Merluza",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 64,
+              "carb": 0,
+              "proteinas": 12,
+              "grasastotales": 2,
+              "sodio": 101,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Bife de Vaca",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 183,
+              "carb": 0,
+              "proteinas": 25,
+              "grasastotales": 15,
+              "sodio": 205,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Bife de Cerdo",
+          "Porcion": 150,
+          "InfNutricional":
+            {
+              "kcal": 168,
+              "carb": 0,
+              "proteinas": 29,
+              "grasastotales": 6,
+              "sodio": 402,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Chuletas de Cordero",
+          "Porcion": 150,
+          "InfNutricional":
+            {
+              "kcal": 375,
+              "carb": 0,
+              "proteinas": 11,
+              "grasastotales": 31,
+              "sodio": 90,
+              "azucar": 0
+            },
+          "Apto": 
+            {
+              "Celiaco": true,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        }
+      ]
+    },
+    {
+      "Minutas": [
+        {
+          "Nombre": "Milanesa de Pollo",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 232,
+              "carb": 7,
+              "proteinas": 24,
+              "grasastotales": 11,
+              "sodio": 60,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Milanesa de Ternera",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 228,
+              "carb": 10,
+              "proteinas": 27,
+              "grasastotales": 9,
+              "sodio": 454,
+              "azucar": 0
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Hamburguesa",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 515,
+              "carb": 34,
+              "proteinas": 32,
+              "grasastotales": 27,
+              "sodio": 380,
+              "azucar": 3
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Pizza",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 266,
+              "carb": 33,
+              "proteinas": 11,
+              "grasastotales": 10,
+              "sodio": 598,
+              "azucar": 2
+            },
+          "Apto": 
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Empanadas",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 335,
+              "carb": 31,
+              "proteinas": 31,
+              "grasastotales": 18,
+              "sodio": 440,
+              "azucar": 2
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        }
+      ]
+    },
+    {
+      "Pastas": [
+        {
+          "Nombre": "Spaghetti",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 158,
+              "carb": 31,
+              "proteinas": 6,
+              "grasastotales": 10,
+              "sodio": 54,
+              "azucar": 2
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Ravioles",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 77,
+              "carb": 14,
+              "proteinas": 3,
+              "grasastotales": 2,
+              "sodio": 306,
+              "azucar": 3
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Sorrentinos",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 590,
+              "carb": 38,
+              "proteinas": 14,
+              "grasastotales": 10,
+              "sodio": 330,
+              "azucar": 3
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        },
+        {
+          "Nombre": "Ñoquis",
+          "Porcion": 60,
+          "InfNutricional":
+            {
+              "kcal": 280,
+              "carb": 40,
+              "proteinas": 6,
+              "grasastotales": 6,
+              "sodio": 430,
+              "azucar": 1
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": true
+            }
+        }
+      ]
+    },
+    {
+      "Platos Sugeridos": [
+        {
+          "Nombre": "Milanesa de Pollo con Fritas",
+          "Porcion": 170,
+          "InfNutricional":
+            {
+              "kcal": 594,
+              "carb": 34,
+              "proteinas": 35,
+              "grasastotales": 27,
+              "sodio": 649,
+              "azucar": 3
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Lasagna",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 135,
+              "carb": 15,
+              "proteinas": 7,
+              "grasastotales": 5,
+              "sodio": 373,
+              "azucar": 3
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Sushi",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 300,
+              "carb": 42,
+              "proteinas": 13,
+              "grasastotales": 9,
+              "sodio": 74,
+              "azucar": 1
+            },
+          "Apto":
+            {
+              "Celiaco": true,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Ensalada Cesar",
+          "Porcion": 100,
+          "InfNutricional":
+            {
+              "kcal": 44,
+              "carb": 4,
+              "proteinas": 11,
+              "grasastotales": 2,
+              "sodio": 83,
+              "azucar": 2
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": true,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        },
+        {
+          "Nombre": "Super Pancho",
+          "Porcion": 90,
+          "InfNutricional":
+            {
+              "kcal": 390,
+              "carb": 26,
+              "proteinas": 16,
+              "grasastotales": 25,
+              "sodio": 1264,
+              "azucar": 3
+            },
+          "Apto":
+            {
+              "Celiaco": false,
+              "Hipertenso": false,
+              "Diabetico": true,
+              "Vegetariano": false
+            }
+        }
+      ]
+    }
+  ]
