@@ -9,4 +9,4 @@ Alumnos:
 
 
 Aclaración: El  presente proyecto ha sido testeado en el navegador Firefox,  Microsoft Edge y Google Chrome. Se recomienda 
-utilizarlo en Firefox ya que en los demás navegadores no es posible cambiar de estilo.
+utilizarlo en Firefox  o en Microsoft Edge ya que en Google Chrome no es posible cambiar de estilo.
