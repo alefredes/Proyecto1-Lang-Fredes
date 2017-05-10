@@ -8,5 +8,5 @@ Alumnos:
     Alexis Fredes Hadad LU: 95903 
 
 
-Aclaración: El  presente proyecto ha sido testeado en el navegador Firefox,  Internet Explorer y Google Chrome. Se recomienda 
+Aclaración: El  presente proyecto ha sido testeado en el navegador Firefox,  Microsoft Edge y Google Chrome. Se recomienda 
 utilizarlo en Firefox ya que en los demás navegadores no es posible cambiar de estilo.
